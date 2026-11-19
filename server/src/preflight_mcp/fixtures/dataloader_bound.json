@@ -1,0 +1,222 @@
+{
+ "gpu_name": "NVIDIA A100-SXM4-40GB (synthetic)",
+ "pattern": "dataloader_bound",
+ "samples": [
+  [
+   {
+    "gpu": 0,
+    "util_pct": 8,
+    "mem_used_mb": 11240,
+    "mem_total_mb": 40960,
+    "power_w": 95
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 12,
+    "mem_used_mb": 11304,
+    "mem_total_mb": 40960,
+    "power_w": 104
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 71,
+    "mem_used_mb": 11368,
+    "mem_total_mb": 40960,
+    "power_w": 268
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 64,
+    "mem_used_mb": 11240,
+    "mem_total_mb": 40960,
+    "power_w": 251
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 15,
+    "mem_used_mb": 11304,
+    "mem_total_mb": 40960,
+    "power_w": 118
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 9,
+    "mem_used_mb": 11368,
+    "mem_total_mb": 40960,
+    "power_w": 99
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 8,
+    "mem_used_mb": 11240,
+    "mem_total_mb": 40960,
+    "power_w": 95
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 12,
+    "mem_used_mb": 11304,
+    "mem_total_mb": 40960,
+    "power_w": 104
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 71,
+    "mem_used_mb": 11368,
+    "mem_total_mb": 40960,
+    "power_w": 268
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 64,
+    "mem_used_mb": 11240,
+    "mem_total_mb": 40960,
+    "power_w": 251
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 15,
+    "mem_used_mb": 11304,
+    "mem_total_mb": 40960,
+    "power_w": 118
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 9,
+    "mem_used_mb": 11368,
+    "mem_total_mb": 40960,
+    "power_w": 99
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 8,
+    "mem_used_mb": 11240,
+    "mem_total_mb": 40960,
+    "power_w": 95
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 12,
+    "mem_used_mb": 11304,
+    "mem_total_mb": 40960,
+    "power_w": 104
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 71,
+    "mem_used_mb": 11368,
+    "mem_total_mb": 40960,
+    "power_w": 268
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 64,
+    "mem_used_mb": 11240,
+    "mem_total_mb": 40960,
+    "power_w": 251
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 15,
+    "mem_used_mb": 11304,
+    "mem_total_mb": 40960,
+    "power_w": 118
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 9,
+    "mem_used_mb": 11368,
+    "mem_total_mb": 40960,
+    "power_w": 99
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 8,
+    "mem_used_mb": 11240,
+    "mem_total_mb": 40960,
+    "power_w": 95
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 12,
+    "mem_used_mb": 11304,
+    "mem_total_mb": 40960,
+    "power_w": 104
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 71,
+    "mem_used_mb": 11368,
+    "mem_total_mb": 40960,
+    "power_w": 268
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 64,
+    "mem_used_mb": 11240,
+    "mem_total_mb": 40960,
+    "power_w": 251
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 15,
+    "mem_used_mb": 11304,
+    "mem_total_mb": 40960,
+    "power_w": 118
+   }
+  ],
+  [
+   {
+    "gpu": 0,
+    "util_pct": 9,
+    "mem_used_mb": 11368,
+    "mem_total_mb": 40960,
+    "power_w": 99
+   }
+  ]
+ ]
+}

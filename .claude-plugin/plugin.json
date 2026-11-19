@@ -1,0 +1,11 @@
+{
+  "name": "preflight",
+  "version": "0.1.0",
+  "description": "Compute-aware layer between researchers, coding agents and GPU clusters: estimate, profile and diagnose jobs before they launch.",
+  "mcpServers": {
+    "preflight": {
+      "command": "uv",
+      "args": ["run", "--quiet", "--project", "${CLAUDE_PLUGIN_ROOT}/server", "preflight-mcp"]
+    }
+  }
+}

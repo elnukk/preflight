@@ -1,0 +1,65 @@
+{
+  "basis": "measured throughput on a data subset",
+  "inputs": {
+    "total_items": 1200000,
+    "epochs": 5,
+    "gpus": 1,
+    "throughput_items_per_s": 2219.746421866181,
+    "profile_id": "profile-20261118-162524-4c4f2c"
+  },
+  "runtime_h": {
+    "low": 0.71,
+    "point": 0.751,
+    "high": 0.787
+  },
+  "gpu_hours": {
+    "low": 0.71,
+    "point": 0.751,
+    "high": 0.787
+  },
+  "usd": {
+    "low": 1.42,
+    "point": 1.5,
+    "high": 1.57
+  },
+  "kwh": {
+    "low": 0.143,
+    "point": 0.151,
+    "high": 0.159
+  },
+  "kg_co2": {
+    "low": 0.0286,
+    "point": 0.0302,
+    "high": 0.0318
+  },
+  "rates": {
+    "usd_per_gpu_hour": 2.0,
+    "gpu_tdp_watts": 400,
+    "pue": 1.3,
+    "kg_co2_per_kwh": 0.2
+  },
+  "assumptions": [
+    "subset throughput is representative of the full run with the same GPU count"
+  ],
+  "warnings": [
+    "GPU telemetry is from the 'mock' adapter, not real hardware",
+    "estimated runtime (up to 0.79 h) may exceed the sbatch time limit (0.17 h)"
+  ],
+  "hints": {
+    "epochs": 5,
+    "batch_size": 64,
+    "total_items": 1200000
+  },
+  "sbatch": {
+    "gpus": 1,
+    "cpus_per_task": 4,
+    "mem": "16G",
+    "time_limit_h": 0.16666666666666666
+  },
+  "keys": [
+    "/Users/elanukarakus/preflight/benchmarks/toy_train/train.py",
+    "/Users/elanukarakus/preflight/benchmarks/toy_train/train.sbatch"
+  ],
+  "id": "estimate-20261118-162527-2cd2df",
+  "created_at": 1795047927.8777442
+}

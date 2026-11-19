@@ -1,0 +1,8 @@
+101|train|COMPLETED|0:0|3600|600|8|01:00:00|32G||billing=8,cpu=8,gres/gpu=1,mem=32G,node=1||2026-11-01T10:00:00|2026-11-01T10:05:00|/home/u/proj
+101.batch|batch|COMPLETED|0:0|3600||8|01:00:00||4G|cpu=8,gres/gpu=1,mem=32G,node=1|cpu=00:59:00,gres/gpuutil=22,gres/gpumem=8000M,mem=4G|2026-11-01T10:05:00|2026-11-01T10:05:00|
+101.extern|extern|COMPLETED|0:0|3600||8|00:00:00||1M|cpu=8,gres/gpu=1,mem=32G,node=1|cpu=00:00:00,mem=1M|2026-11-01T10:05:00|2026-11-01T10:05:00|
+102|train|FAILED|1:0|120|600|8|00:01:30|32G||billing=8,cpu=8,gres/gpu=1,mem=32G,node=1||2026-11-02T10:00:00|2026-11-02T10:01:00|/home/u/proj
+102.batch|batch|FAILED|1:0|120||8|00:01:30||2G|cpu=8,gres/gpu=1,mem=32G,node=1|cpu=00:01:30,gres/gpuutil=5,mem=2G|2026-11-02T10:01:00|2026-11-02T10:01:00|
+103|big|TIMEOUT|0:15|36000|600|8|2-00:00:00|4Gc||billing=8,cpu=8,gres/gpu=2,mem=32G,node=1||2026-11-03T10:00:00|2026-11-03T11:00:00|/home/u/proj
+103.batch|batch|CANCELLED|0:15|36000||8|2-00:00:00||30000M|cpu=8,gres/gpu=2,mem=32G,node=1|cpu=1-23:00:00,gres/gpuutil=80,mem=30000M|2026-11-03T11:00:00|2026-11-03T11:00:00|
+104|dbg|CANCELLED by 1234|0:0|30|60|2|00:00:01|8G||billing=2,cpu=2,mem=8G,node=1||2026-11-04T10:00:00|2026-11-04T10:00:10|/home/u/proj

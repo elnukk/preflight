@@ -1,0 +1,21 @@
+name: toy-train
+
+# Outputs that must not change when an optimization is applied, with tolerances.
+outputs: []
+#  - path: results/metrics.json
+#    metrics:
+#      val_acc: {abs: 0.002}
+
+budget:
+  gpu_hours: null
+  usd: null
+
+# Defaults are rough placeholders: replace with your cluster's numbers.
+rates:
+  usd_per_gpu_hour: 2.0
+  gpu_tdp_watts: 400
+  pue: 1.3
+  kg_co2_per_kwh: 0.2
+
+# warn: ask before launching a job with no estimate. block: refuse it.
+hook_mode: warn
